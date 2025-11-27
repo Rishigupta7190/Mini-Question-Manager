@@ -7,7 +7,7 @@ import connectWithMongoDB from './db/Connection1.js'
 import cors from 'cors'
 
 app.use(cors({
-    origin: ["http://localhost:3000","https://full-stack-web-question-bank.netlify.app"]
+    origin: ["http://localhost:3000","https://mini-question-manager.netlify.app"]
 }));
 
 connectWithMongoDB();
@@ -66,3 +66,4 @@ Without this "translator"(middleware), when your server tries to read req.body,
 it would just see the original string, which isn't very useful.
 
 */
+
