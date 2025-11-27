@@ -14,24 +14,19 @@ Live Demo Links
 
 Frontend (Netlify)
 **Live URL:**  
-`https://mini-question-manager.netlify.app/`
+https://mini-question-manager.netlify.app/
 
 Backend API (Vercel)
-**Base API URL:**  
-`https://YOUR-BACKEND-VERCEL-URL`  
-_example: `https://mini-question-manager-api.vercel.app`_
+**Base API URL:**   
+https://mini-question-manager-api.vercel.app
 
-- Health check (root):  
-  `GET https://YOUR-BACKEND-VERCEL-URL/`
-- API base for frontend:  
-  `https://YOUR-BACKEND-VERCEL-URL/api/v1`
 
 The frontend reads the API base from `REACT_APP_SERVER_URL` in `.env`.
 
 GitHub Repository
 
 **Code (Full Stack – client + server):**  
-`https://github.com/Rishigupta7190/Mini-Question-Manager`
+https://github.com/Rishigupta7190/Mini-Question-Manager
 
 ---
 
@@ -200,4 +195,45 @@ The frontend will run at:
 http://localhost:3000
 
 Screenshots / Demo
+Home Page – List of questions
+<img width="1440" height="900" alt="Screenshot 2025-11-27 at 9 28 01 PM" src="https://github.com/user-attachments/assets/a01eee91-a484-46f9-af3e-d6b7c91d0a60" />
+
+Create Question Page – Form to add Q&A
+<img width="1440" height="900" alt="Screenshot 2025-11-27 at 9 28 48 PM" src="https://github.com/user-attachments/assets/2630e6db-7d8f-44a4-9a83-10a4e1110404" />
+
+Update Question Page – Editing form
+<img width="1440" height="900" alt="Screenshot 2025-11-27 at 9 29 00 PM" src="https://github.com/user-attachments/assets/2a4f1c77-a4be-4407-8e42-6c71016be605" />
+<img width="1440" height="900" alt="Screenshot 2025-11-27 at 9 29 09 PM" src="https://github.com/user-attachments/assets/338e47b0-d590-4f0e-aa46-c0e743bb0f86" />
+
+Single Question View
+<img width="1440" height="900" alt="Screenshot 2025-11-27 at 9 30 30 PM" src="https://github.com/user-attachments/assets/4725f3f3-8c5f-42eb-919c-c169c04728b4" />
+
+
+Assumptions & Bonus Features
+Assumptions
+
+Single-user usage model (no authentication).
+
+No complex roles/permissions – focus is on CRUD logic and clean API design.
+
+Topics are free-form text (e.g., “OS”, “DBMS”, “DSA”).
+
+Bonus/Extra
+
+Full-stack deployment (Netlify + Vercel).
+
+Reusable components for listing and viewing questions.
+
+Organized folder structure (client/ and server/ separated).
+
+Clean JSON API responses (success, responseData) good for future extension.
+
+
+
+Author
+
+Rishi Gupta
+B.Tech CSE – VIT Vellore
+Email: guptarishi5959@gmail.com
+GitHub: https://github.com/Rishigupta7190
 
